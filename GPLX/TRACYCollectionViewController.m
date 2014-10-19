@@ -109,7 +109,6 @@ const NSInteger k_iTaguiTRACYChooseCollection = 3;
 //button select question----------
     [self.btnSelectQuestionCollection setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.btnSelectQuestionCollection setTitle:@"1/150" forState:UIControlStateNormal];
-    //[self.btnSelectQuestionCollection setBackgroundColor:[UIColor redColor]];
     [self.btnSelectQuestionCollection setBackgroundImage:[UIImage imageNamed:@"btnSelectQuestionCollection.png"] forState:UIControlStateNormal];
     [self.btnSelectQuestionCollection setTag: k_iTagbtnSelectQuestionCollection];
 

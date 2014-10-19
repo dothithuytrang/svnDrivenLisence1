@@ -47,6 +47,7 @@
 		AC35CE0C19E18A8600B1640D /* TRACYHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC35CDFA19E18A8600B1640D /* TRACYHistoryViewController.m */; };
 		AC35CE0D19E18A8600B1640D /* TRACYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC35CDFC19E18A8600B1640D /* TRACYMainViewController.m */; };
 		AC35CE0E19E18A8600B1640D /* TRACYtest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC35CDFE19E18A8600B1640D /* TRACYtest.m */; };
+		AC651DE019F40F85005F337E /* GPLX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC651DDE19F40F85005F337E /* GPLX.xcdatamodeld */; };
 		AC98779A18C0E5D600639D8C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC98779918C0E5D600639D8C /* libsqlite3.0.dylib */; };
 		ACAE6CCF18BCDD9B00DA5748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE6CCE18BCDD9B00DA5748 /* Foundation.framework */; };
 		ACAE6CD118BCDD9B00DA5748 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE6CD018BCDD9B00DA5748 /* CoreGraphics.framework */; };
@@ -60,7 +61,6 @@
 		ACAE6CFA18BCDD9B00DA5748 /* GPLXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE6CF918BCDD9B00DA5748 /* GPLXTests.m */; };
 		ACAFFD0A19F0110E0036F838 /* btnSelectQuestionBoardCollection.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAFFD0619F0110E0036F838 /* btnSelectQuestionBoardCollection.png */; };
 		ACAFFD0B19F0110E0036F838 /* btnSelectQuestionBoardCollection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAFFD0719F0110E0036F838 /* btnSelectQuestionBoardCollection@2x.png */; };
-		ACB20F6D19F3C62900DF225C /* GPLX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACB20F6B19F3C62900DF225C /* GPLX.xcdatamodeld */; };
 		ACBEC19519F3858100706D0C /* TestQuestionSqlite.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = ACBEC19419F3858100706D0C /* TestQuestionSqlite.sqlite */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +127,7 @@
 		AC35CDFC19E18A8600B1640D /* TRACYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRACYMainViewController.m; path = GPLX/TRACYMainViewController.m; sourceTree = "<group>"; };
 		AC35CDFD19E18A8600B1640D /* TRACYtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRACYtest.h; path = GPLX/TRACYtest.h; sourceTree = "<group>"; };
 		AC35CDFE19E18A8600B1640D /* TRACYtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRACYtest.m; path = GPLX/TRACYtest.m; sourceTree = "<group>"; };
+		AC651DDF19F40F85005F337E /* GPLX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPLX.xcdatamodel; sourceTree = "<group>"; };
 		AC98779918C0E5D600639D8C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		ACAE6CCB18BCDD9B00DA5748 /* GPLX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPLX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAE6CCE18BCDD9B00DA5748 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,9 +141,6 @@
 		ACAE6CF918BCDD9B00DA5748 /* GPLXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPLXTests.m; sourceTree = "<group>"; };
 		ACAFFD0619F0110E0036F838 /* btnSelectQuestionBoardCollection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectQuestionBoardCollection.png; sourceTree = "<group>"; };
 		ACAFFD0719F0110E0036F838 /* btnSelectQuestionBoardCollection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnSelectQuestionBoardCollection@2x.png"; sourceTree = "<group>"; };
-		ACB20F6C19F3C62900DF225C /* GPLX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPLX.xcdatamodel; sourceTree = "<group>"; };
-		ACB20F6E19F3C7FA00DF225C /* GPLX 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GPLX 2.xcdatamodel"; sourceTree = "<group>"; };
-		ACB20F6F19F3C95900DF225C /* GPLX 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GPLX 3.xcdatamodel"; sourceTree = "<group>"; };
 		ACBEC19419F3858100706D0C /* TestQuestionSqlite.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = TestQuestionSqlite.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -242,7 +240,7 @@
 		AC35CDDF19E18A3A00B1640D /* GPLX */ = {
 			isa = PBXGroup;
 			children = (
-				ACB20F6B19F3C62900DF225C /* GPLX.xcdatamodeld */,
+				AC651DDE19F40F85005F337E /* GPLX.xcdatamodeld */,
 				AC35CDE019E18A8600B1640D /* en.lproj */,
 				AC35CDE319E18A8600B1640D /* GPLX-Info.plist */,
 				AC35CDE419E18A8600B1640D /* GPLX-Prefix.pch */,
@@ -478,7 +476,7 @@
 				AC35CE0419E18A8600B1640D /* PracticeSession.m in Sources */,
 				AC35CE0D19E18A8600B1640D /* TRACYMainViewController.m in Sources */,
 				AC27C13E19EA22AE00E9A758 /* TRACYCollectionViewController.m in Sources */,
-				ACB20F6D19F3C62900DF225C /* GPLX.xcdatamodeld in Sources */,
+				AC651DE019F40F85005F337E /* GPLX.xcdatamodeld in Sources */,
 				AC35CE0C19E18A8600B1640D /* TRACYHistoryViewController.m in Sources */,
 				AC35CE0519E18A8600B1640D /* QuestionCollection.m in Sources */,
 				AC35CE0B19E18A8600B1640D /* TRACYExamViewController.m in Sources */,
@@ -698,14 +696,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ACB20F6B19F3C62900DF225C /* GPLX.xcdatamodeld */ = {
+		AC651DDE19F40F85005F337E /* GPLX.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				ACB20F6F19F3C95900DF225C /* GPLX 3.xcdatamodel */,
-				ACB20F6E19F3C7FA00DF225C /* GPLX 2.xcdatamodel */,
-				ACB20F6C19F3C62900DF225C /* GPLX.xcdatamodel */,
+				AC651DDF19F40F85005F337E /* GPLX.xcdatamodel */,
 			);
-			currentVersion = ACB20F6E19F3C7FA00DF225C /* GPLX 2.xcdatamodel */;
+			currentVersion = AC651DDF19F40F85005F337E /* GPLX.xcdatamodel */;
 			name = GPLX.xcdatamodeld;
 			path = GPLX/GPLX.xcdatamodeld;
 			sourceTree = "<group>";
