@@ -5,7 +5,6 @@
         <attribute name="answerB" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="answerC" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="answerD" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="collectionIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="hint" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="history" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
