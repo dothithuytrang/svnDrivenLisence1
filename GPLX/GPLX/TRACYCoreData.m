@@ -86,6 +86,7 @@
                 //[model setValue:questionAndAnswer forKey:@"collectionIndex"];
                 //we down't use hint more, leave it there
                 //set value  hint
+                [model setValue:questionAndAnswer forKey:@"collection"];
                 [model setValue:questionAndAnswer forKey:@"hint"];
                 [model setValue:[[NSNumber alloc] initWithBool:true] forKey:@"history"];
                 //////////

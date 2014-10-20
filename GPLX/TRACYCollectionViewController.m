@@ -204,11 +204,11 @@ const NSInteger k_iTaguiTRACYChooseCollection = 3;
     
     m_iCurrentCollectionIndex = 0;
     PracticeSession *tmpPracticeSession = [[PracticeSession alloc] initAllWithEntity: @"Entity"];
-    /*
+    
     m_iCurrentCollectionIndex = 2;
     //tmpPracticeSession = [[PracticeSession alloc] initAllWithEntity: @"Entity"];
     tmpPracticeSession = [[PracticeSession alloc] initCollectionWithEntity: @"Entity": m_iCurrentCollectionIndex];
-    */
+    
     mPracticeSession = tmpPracticeSession;
     mQuestionCollection = [mPracticeSession getQuestionCollection];
     NSNumber* value = [[NSNumber alloc] initWithInt:0] ;
